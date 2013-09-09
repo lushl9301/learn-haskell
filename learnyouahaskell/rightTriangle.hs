@@ -1,0 +1,1 @@
+rightTriangles x = [(a,b,c)| c <-[1..x], b <- [1..c], a <- [100..b], a^2 + b^2 == c^2]
