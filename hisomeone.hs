@@ -1,0 +1,1 @@
+main = putStrLn "Enter name:" >> getLine >>= putStrLn.("Hi " ++)
