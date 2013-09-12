@@ -11,3 +11,9 @@ take 5 $ foldr(\x acc -> x:acc) [] [1..]
 
 --also the first line take 5 $ foldr(\x acc -> x:acc) [] [1..] can be simplified as:
 take 5 $ foldr (:) [] [1..]
+
+
+
+--one thing to add one
+--foldr can handle infinite lists when the binary function does not always need to evaluate the second parameter to give us result
+--like AND operation or OR operation
