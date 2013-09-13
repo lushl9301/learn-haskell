@@ -1,0 +1,6 @@
+import Data.List
+needle `isIn` haystack = any (needle `isPrefixOf`)(tails haystack)
+
+--by the way... isIn == Data.List.isInfixOf...
+--Dr shuklan must have read this book before...
+--fvck...hahaha
