@@ -18,5 +18,3 @@ instance Show TrafficLight where
   show Red = "Red light"
   show Yellow = "Yello light"
   show Green = "Green light"
-  
-  
