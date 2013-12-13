@@ -1,0 +1,6 @@
+#for haskell#
+!*.*
+*.hi
+*.o
+*.pdf
+/cs11
