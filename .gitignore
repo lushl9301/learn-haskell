@@ -1,6 +1,14 @@
-#for haskell#
-!*.*
+#haskell#
+!*.hs
+!*.md
+!*.txt
+!**/*.hs
+!**/*.md
+!**/*.txt
 *.hi
 *.o
 *.pdf
-/cs11
+cs11/
+**/*.hi
+**/*.o
+**/*.pdf
